@@ -1,0 +1,92 @@
+/* General */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Hero Section */
+
+.hero {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("https://images.unsplash.com/photo-1500534623283-312aade485b7")
+        center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 80px;
+}
+
+
+/* Search Box */
+
+.search-box {
+    max-width: 1000px;
+    margin: 40px auto 0;
+}
+
+
+/* Destination Cards */
+
+.destination-card {
+    border: none;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.destination-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.destination-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Package Cards */
+
+.package-card {
+    border: none;
+    transition: 0.3s;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Feature Icons */
+
+.feature-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+/* Section Scroll */
+
+section {
+    scroll-margin-top: 70px;
+}
+
+
+/* Footer */
+
+footer {
+    margin: 0;
+}@charset "utf-8";
+/* CSS Document */
+

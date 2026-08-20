@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TravelGo - Travel Booking</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style11.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            ✈️ TravelGo
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#destinations">Destinations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#packages">Packages</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section id="home" class="hero">
+
+    <div class="container text-center text-white">
+
+        <h1 class="display-3 fw-bold">
+            Explore The World
+        </h1>
+
+        <p class="lead">
+            Discover beautiful places and unforgettable experiences.
+        </p>
+
+        <!-- Search Box -->
+
+        <div class="search-box bg-white p-4 rounded shadow">
+
+            <div class="row g-3">
+
+                <div class="col-md-4">
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Where do you want to go?">
+                </div>
+
+                <div class="col-md-3">
+                    <input type="date"
+                           class="form-control">
+                </div>
+
+                <div class="col-md-3">
+                    <select class="form-select">
+
+                        <option selected>Travelers</option>
+                        <option>1 Traveler</option>
+                        <option>2 Travelers</option>
+                        <option>3 Travelers</option>
+                        <option>4+ Travelers</option>
+
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100">
+                        Search
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED DESTINATIONS ================= -->
+
+<section id="destinations" class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">
+                Featured Destinations
+            </h2>
+
+            <p class="text-muted">
+                Explore some of the world's most beautiful destinations.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Destination 1 -->
+
+            <div class="col-md-4">
+
+                <div class="card destination-card shadow">
+
+                    <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4"
+                         class="card-img-top"
+                         alt="Bali">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Bali, Indonesia
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Enjoy tropical beaches, temples and beautiful landscapes.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-primary">
+                            Explore
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Destination 2 -->
+
+            <div class="col-md-4">
+
+                <div class="card destination-card shadow">
+
+                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+                         class="card-img-top"
+                         alt="Paris">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Paris, France
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Discover romantic streets, art, culture and famous landmarks.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-primary">
+                            Explore
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Destination 3 -->
+
+            <div class="col-md-4">
+
+                <div class="card destination-card shadow">
+
+                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
+                         class="card-img-top"
+                         alt="Tokyo">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Tokyo, Japan
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Experience modern cities, traditional culture and amazing food.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-primary">
+                            Explore
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOLIDAY PACKAGES ================= -->
+
+<section id="packages" class="bg-light py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">
+                Popular Holiday Packages
+            </h2>
+
+            <p class="text-muted">
+                Choose a package and start your next adventure.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- Package 1 -->
+
+            <div class="col-md-4">
+
+                <div class="card package-card shadow-sm h-100">
+
+                    <div class="card-body">
+
+                        <span class="badge bg-primary mb-3">
+                            5 Days
+                        </span>
+
+                        <h4>
+                            Bali Escape
+                        </h4>
+
+                        <p class="text-muted">
+                            Beaches • Hotels • Sightseeing
+                        </p>
+
+                        <h3 class="text-primary">
+                            ₹35,999
+                        </h3>
+
+                        <p>
+                            Per person
+                        </p>
+
+                        <button class="btn btn-primary w-100">
+                            Book Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Package 2 -->
+
+            <div class="col-md-4">
+
+                <div class="card package-card shadow-sm h-100">
+
+                    <div class="card-body">
+
+                        <span class="badge bg-success mb-3">
+                            7 Days
+                        </span>
+
+                        <h4>
+                            Paris Explorer
+                        </h4>
+
+                        <p class="text-muted">
+                            Hotels • City Tour • Eiffel Tower
+                        </p>
+
+                        <h3 class="text-primary">
+                            ₹75,999
+                        </h3>
+
+                        <p>
+                            Per person
+                        </p>
+
+                        <button class="btn btn-primary w-100">
+                            Book Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Package 3 -->
+
+            <div class="col-md-4">
+
+                <div class="card package-card shadow-sm h-100">
+
+                    <div class="card-body">
+
+                        <span class="badge bg-warning text-dark mb-3">
+                            6 Days
+                        </span>
+
+                        <h4>
+                            Tokyo Adventure
+                        </h4>
+
+                        <p class="text-muted">
+                            Hotels • Food Tour • City Tour
+                        </p>
+
+                        <h3 class="text-primary">
+                            ₹89,999
+                        </h3>
+
+                        <p>
+                            Per person
+                        </p>
+
+                        <button class="btn btn-primary w-100">
+                            Book Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">
+                Why Travel With Us?
+            </h2>
+
+        </div>
+
+
+        <div class="row text-center g-4">
+
+            <div class="col-md-4">
+
+                <div class="p-4">
+
+                    <div class="feature-icon">
+                        🌍
+                    </div>
+
+                    <h5>Best Destinations</h5>
+
+                    <p class="text-muted">
+                        Discover amazing destinations around the world.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="p-4">
+
+                    <div class="feature-icon">
+                        💰
+                    </div>
+
+                    <h5>Best Prices</h5>
+
+                    <p class="text-muted">
+                        Get affordable holiday packages and great deals.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="p-4">
+
+                    <div class="feature-icon">
+                        🛎️
+                    </div>
+
+                    <h5>24/7 Support</h5>
+
+                    <p class="text-muted">
+                        Our travel team is always ready to help you.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="bg-light py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold">
+                Contact Us
+            </h2>
+
+            <p class="text-muted">
+                Have questions? Get in touch with us.
+            </p>
+
+        </div>
+
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-7">
+
+                <form>
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            Name
+                        </label>
+
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Enter your name">
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            Email
+                        </label>
+
+                        <input type="email"
+                               class="form-control"
+                               placeholder="Enter your email">
+
+                    </div>
+
+
+                    <div class="mb-3">
+
+                        <label class="form-label">
+                            Message
+                        </label>
+
+                        <textarea class="form-control"
+                                  rows="4"
+                                  placeholder="Enter your message"></textarea>
+
+                    </div>
+
+
+                    <button type="submit"
+                            class="btn btn-primary w-100">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white text-center py-4">
+
+    <div class="container">
+
+        <h5>
+            ✈️ TravelGo
+        </h5>
+
+        <p class="mb-1">
+            Explore. Travel. Create Memories.
+        </p>
+
+        <small>
+            © 2026 TravelGo. All Rights Reserved.
+        </small>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JavaScript -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
